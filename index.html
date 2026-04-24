@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubaster — мобильный клиент для блочных серверов</title>
+    <meta name="description" content="Cubaster — быстрый, удобный и бесплатный мобильный клиент с рекомендуемыми серверами, улучшенным интерфейсом и оптимизацией производительности.">
+    <meta name="theme-color" content="#7c5cff">
+    <meta property="og:title" content="Cubaster — мобильный клиент для блочных серверов">
+    <meta property="og:description" content="Быстрый, удобный и бесплатный мобильный клиент.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cubaster.com">
+    <meta property="og:image" content="https://cubaster.com/img/icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Cubaster — мобильный клиент для блочных серверов">
+    <meta name="twitter:description" content="Быстрый, удобный и бесплатный мобильный клиент.">
+    <meta name="twitter:image" content="https://cubaster.com/img/icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo"><img src="img/icon.png" alt="" class="nav-icon" width="32" height="32">Cubaster</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#features">Возможности</a></li>
+            <li><a href="#servers">Серверы</a></li>
+            <li><a href="#download">Тестирование</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a href="#download" class="nav-cta">Играть в бету</a>
+        <button class="mobile-menu-btn" id="menuBtn" aria-label="Меню" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-badge">Открытая бета &middot; 1.21.11</div>
+        <h1>Играй <span class="gradient">до релиза</span></h1>
+        <p>Cubaster — мобильный клиент с рекомендуемыми серверами, улучшенной производительностью и удобным интерфейсом. Бета открыта для всех: ни заявок, ни ожидания — подключение за пару минут.</p>
+        <div class="hero-buttons">
+            <a href="#download" class="btn-primary">
+                Играть в бету
+            </a>
+            <a href="#features" class="btn-secondary">Узнать больше</a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-value">1.21.11</div>
+                <div class="hero-stat-label">Последняя версия</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">Android</div>
+                <div class="hero-stat-label">Платформа</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">0 &#8381;</div>
+                <div class="hero-stat-label">Навсегда</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EARLY ACCESS -->
+<section class="section early-access-section">
+    <div class="early-access-card">
+        <div class="ea-glow"></div>
+        <div class="ea-content">
+            <div class="ea-label">Open Beta</div>
+            <h2>Первые игроки делают игру</h2>
+            <p>Бета открыта всем — без заявок, без ручного одобрения. Играй до релиза, общайся с разработчиками напрямую и формируй Cubaster вместе с нами.</p>
+            <div class="ea-perks">
+                <div class="ea-perk">
+                    <span class="ea-perk-icon">&#9889;</span>
+                    <div>
+                        <strong>Играй раньше всех</strong>
+                        <span>Новые версии — у тебя первым, задолго до публичного релиза</span>
+                    </div>
+                </div>
+                <div class="ea-perk">
+                    <span class="ea-perk-icon">&#128172;</span>
+                    <div>
+                        <strong>Влияй на игру</strong>
+                        <span>Твой фидбек идёт напрямую разработчикам и попадает в апдейты</span>
+                    </div>
+                </div>
+                <div class="ea-perk">
+                    <span class="ea-perk-icon">&#127942;</span>
+                    <div>
+                        <strong>Статус первопроходца</strong>
+                        <span>Особое признание для тех, кто был с проектом с беты</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#download" class="btn-primary">Начать играть</a>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+    <div class="section-header">
+        <h2>Почему Cubaster</h2>
+        <p>Всё, что нужно для комфортной игры — уже внутри</p>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">&#9889;</div>
+            <h3>Производительность</h3>
+            <p>Оптимизированный рендеринг и сниженное потребление памяти. Плавный геймплей даже на слабых устройствах.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#127760;</div>
+            <h3>Рекомендуемые серверы</h3>
+            <p>Каталог проверенных серверов прямо в клиенте. Находи лучшие серверы без поиска по форумам.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128171;</div>
+            <h3>Удобный интерфейс</h3>
+            <p>Переработанный UI с быстрым доступом ко всему важному. Минимум кликов — максимум игры.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128274;</div>
+            <h3>Приватность</h3>
+            <p>Никакой скрытой телеметрии. Мы не собираем персональные данные и не продаём их третьим лицам.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128259;</div>
+            <h3>Обновления</h3>
+            <p>Быстрые обновления под актуальные версии игры. Поддержка новых фич сразу после релиза.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#129309;</div>
+            <h3>Сообщество</h3>
+            <p>Активное комьюнити, открытая обратная связь и прозрачная разработка.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SCREENSHOTS -->
+<section class="section" id="screenshots">
+    <div class="section-header">
+        <h2>Как это выглядит</h2>
+        <p>Реальный геймплей на серверах прямо с телефона</p>
+    </div>
+    <div class="carousel-wrap" role="region" aria-label="Скриншоты Cubaster" aria-roledescription="карусель">
+        <button class="carousel-arrow carousel-prev" id="carouselPrev" type="button" aria-label="Предыдущий скриншот">&#8249;</button>
+        <div class="carousel-viewport" id="carouselViewport">
+            <div class="carousel-track" id="carouselTrack" aria-live="polite">
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_5-720.avif 720w, img/Screenshot_5.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_5-720.webp 720w, img/Screenshot_5.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_5.png" alt="Главное меню Cubaster" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_1-720.avif 720w, img/Screenshot_1.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_1-720.webp 720w, img/Screenshot_1.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_1.png" alt="Геймплей на сервере" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_3-720.avif 720w, img/Screenshot_3.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_3-720.webp 720w, img/Screenshot_3.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_3.png" alt="Мини-игры" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_6-720.avif 720w, img/Screenshot_6.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_6-720.webp 720w, img/Screenshot_6.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_6.png" alt="PvP на сервере" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_2-720.avif 720w, img/Screenshot_2.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_2-720.webp 720w, img/Screenshot_2.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_2.png" alt="Список игроков" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture class="screenshot-picture">
+                        <source
+                            srcset="img/Screenshot_4-720.avif 720w, img/Screenshot_4.avif 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/avif">
+                        <source
+                            srcset="img/Screenshot_4-720.webp 720w, img/Screenshot_4.webp 1212w"
+                            sizes="(max-width: 768px) 75vw, 60vw"
+                            type="image/webp">
+                        <img src="img/Screenshot_4.png" alt="Меню сервера" class="screenshot" width="1212" height="540" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-arrow carousel-next" id="carouselNext" type="button" aria-label="Следующий скриншот">&#8250;</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+</section>
+
+<!-- SERVERS -->
+<section class="section servers-section" id="servers">
+    <div class="section-header">
+        <h2>Рекомендуемые серверы</h2>
+        <p>Разные стили игры: от анархии и хардкора до спокойных режимов для компании</p>
+    </div>
+    <div class="servers-list">
+        <div class="server-card server-card-zone">
+            <div class="server-head">
+                <div class="server-title-block">
+                    <h3>mc.zone</h3>
+                    <p class="server-copy">Идеальные режимы и дружелюбная подача для игры с друзьями.</p>
+                </div>
+                <button type="button" class="server-address" data-copy="play.mc.zone" aria-label="Скопировать IP play.mc.zone">
+                    <span class="server-address-text">play.mc.zone</span>
+                    <span class="server-address-hint">нажми, чтобы скопировать</span>
+                </button>
+            </div>
+            <div class="server-tags" aria-label="Особенности сервера">
+                <span class="server-tag">Идеальные режимы</span>
+                <span class="server-tag">Для друзей</span>
+                <span class="server-tag">1.19.4 - 26.1.2</span>
+            </div>
+            <div class="server-motd-shell">
+                <div class="server-motd" data-motd="§4§l✞ §c§lMC.§f§lzone §4§l✞ §e§lИдеальные режимы&#10;§4§l☆ §6§l1.19.4 - 26.1.2 §4§l☆ §f§lдля тебя и друзей!"></div>
+            </div>
+        </div>
+        <div class="server-card server-card-funtime">
+            <div class="server-head">
+                <div class="server-title-block">
+                    <h3>FunTime</h3>
+                    <p class="server-copy">Гриферский, анархия и хардкор в одном месте с акцентом на свежий вайп.</p>
+                </div>
+                <button type="button" class="server-address" data-copy="play.funtime.su" aria-label="Скопировать IP play.funtime.su">
+                    <span class="server-address-text">play.funtime.su</span>
+                    <span class="server-address-hint">нажми, чтобы скопировать</span>
+                </button>
+            </div>
+            <div class="server-tags" aria-label="Особенности сервера">
+                <span class="server-tag">Гриферский</span>
+                <span class="server-tag">Анархия</span>
+                <span class="server-tag">Хардкор</span>
+                <span class="server-tag">Вайп</span>
+            </div>
+            <div class="server-motd-shell">
+                <div class="server-motd" data-motd="§4§l✞ §c§lＦｕｎ§f§lＴｉｍｅ §4§l✞ §e§lГРИФЕРСКИЙ   §6§lАНАРХИЯ   §c§lХАРДКОР&#10;§4§l☆ §6§l1.21 - 1.16.5 §4§l☆ §f§lГлобальное обновление, §4§lВАЙП!"></div>
+            </div>
+        </div>
+        <div class="server-card server-card-reallyworld">
+            <div class="server-head">
+                <div class="server-title-block">
+                    <h3>ReallyWorld</h3>
+                    <p class="server-copy">Лаконичная подача с широким диапазоном версий и сезонным пасхальным вайпом.</p>
+                </div>
+                <button type="button" class="server-address" data-copy="mc.reallyworld.me" aria-label="Скопировать IP mc.reallyworld.me">
+                    <span class="server-address-text">mc.reallyworld.me</span>
+                    <span class="server-address-hint">нажми, чтобы скопировать</span>
+                </button>
+            </div>
+            <div class="server-tags" aria-label="Особенности сервера">
+                <span class="server-tag">1.16.5</span>
+                <span class="server-tag">1.21.9</span>
+                <span class="server-tag">Пасхальный вайп</span>
+            </div>
+            <div class="server-motd-shell">
+                <div class="server-motd" data-motd="§6§l• ReallyWorld • §a§lЗАХОДИ НА&#10;§f• §b1.16.5 §f• §b1.21.9 §f• §c§lПАСХАЛЬНЫЙ ВАЙП"></div>
+            </div>
+        </div>
+        <div class="server-card server-card-holyworld">
+            <div class="server-head">
+                <div class="server-title-block">
+                    <h3>HolyWorld</h3>
+                    <p class="server-copy">Классик-направление HolyWorld с поддержкой старых и новых версий.</p>
+                </div>
+                <button type="button" class="server-address" data-copy="hub.holyworld.ru" aria-label="Скопировать IP hub.holyworld.ru">
+                    <span class="server-address-text">hub.holyworld.ru</span>
+                    <span class="server-address-hint">нажми, чтобы скопировать</span>
+                </button>
+            </div>
+            <div class="server-tags" aria-label="Особенности сервера">
+                <span class="server-tag">Классик</span>
+                <span class="server-tag">1.16.5 - 1.21.11</span>
+                <span class="server-tag">ClassicHW</span>
+            </div>
+            <div class="server-motd-shell">
+                <div class="server-motd" data-motd="§f§l▶ HolyWorld §8▪ §71.16.5 - 1.21.11 §8▪&#10;§fПодписывайся на §f§lКлассик: §bt.me/ClassicHW"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DOWNLOAD -->
+<section class="section download-section" id="download">
+    <div class="section-header">
+        <h2>Играй в Cubaster уже сегодня</h2>
+        <p>Бета открыта для всех. Никаких заявок, ручного одобрения и ожидания — подключение занимает пару минут.</p>
+    </div>
+    <div class="download-card">
+        <div class="download-version">Open Beta &middot; 1.21.11</div>
+        <h3>Доступ к бете за 3 шага</h3>
+        <div class="download-steps">
+            <div class="download-step">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                    <span class="step-label">Обязательно</span>
+                    <strong>Вступи в <a href="https://groups.google.com/g/cubaster" target="_blank" rel="noopener">Google Group Cubaster</a></strong>
+                    <span>Так Google Play поймет, что тебе можно открыть ранний доступ.</span>
+                </div>
+            </div>
+            <div class="download-step">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                    <span class="step-label">Web link</span>
+                    <strong>Подтверди участие на <a href="https://play.google.com/apps/testing/com.cubaster" target="_blank" rel="noopener">странице тестирования</a></strong>
+                    <span>Нажми «Стать тестировщиком» — после этого приложение появится для установки.</span>
+                </div>
+            </div>
+            <div class="download-step">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                    <span class="step-label">Android link</span>
+                    <strong>Скачай Cubaster в <a href="https://play.google.com/store/apps/details?id=com.cubaster" target="_blank" rel="noopener">Google Play</a></strong>
+                    <span>Жми «Установить» или «Обновить» и запускай игру с телефона.</span>
+                </div>
+            </div>
+        </div>
+        <a href="https://groups.google.com/g/cubaster" class="btn-primary" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Начать с Google Group
+        </a>
+        <div class="download-requirements">
+            <div class="download-req"><strong>Android</strong> 11.0+</div>
+            <div class="download-req"><strong>RAM</strong> 1 GB+</div>
+            <div class="download-req"><strong>Размер</strong> ~200 MB</div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+    <div class="section-header">
+        <h2>Вопросы и ответы</h2>
+    </div>
+    <div class="faq-list">
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Cubaster бесплатный?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Да, полностью бесплатный. Без подписок, без встроенных покупок, без рекламы в игре.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Как присоединиться к бете?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Порядок важен: сначала вступи в <a href="https://groups.google.com/g/cubaster" target="_blank" rel="noopener">Google Group Cubaster</a>, затем подтверди участие на <a href="https://play.google.com/apps/testing/com.cubaster" target="_blank" rel="noopener">странице тестирования</a>, после этого скачай Cubaster в <a href="https://play.google.com/store/apps/details?id=com.cubaster" target="_blank" rel="noopener">Google Play</a>. Весь процесс занимает пару минут.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Что значит открытая бета?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Клиент полностью играбелен, но мы продолжаем добавлять функции и чинить баги. Игроки беты получают новые версии раньше всех и напрямую влияют на то, каким Cubaster выйдет в релиз. После релиза игра останется бесплатной для всех.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Какие версии поддерживаются?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Текущая версия клиента поддерживает серверы 1.21.x. Мы обновляемся вместе с каждым новым релизом.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Как добавить свой сервер в рекомендуемые?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Напишите нам в Telegram или ВКонтакте. Мы рассматриваем заявки от серверов с активным онлайном и стабильным хостингом.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Безопасно ли использовать Cubaster?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">Cubaster не содержит вредоносного кода, не запрашивает лишних разрешений и не собирает персональные данные. APK можно проверить любым антивирусом.</div>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+                Будет ли версия для iOS?
+                <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="faq-answer">
+                <div class="faq-answer-inner">iOS в планах, но сначала мы хотим довести Android-версию до идеала. Следите за обновлениями — мы сообщим, когда начнётся работа над iOS.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-copy">&copy; 2026 Cubaster</div>
+        <ul class="footer-links">
+            <li><a href="https://t.me/cubaster" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://vk.com/cubaster" target="_blank" rel="noopener">ВКонтакте</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
