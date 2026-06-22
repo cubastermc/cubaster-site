@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "id": "mc-zone",
+      "name": "mc.zone",
+      "address": "play.mc.zone",
+      "displayMotd": "§4§l✞ §c§lMC.§f§lzone §4§l✞ §e§lИдеальные режимы\n§4§l☆ §6§l1.19.4 - 26.1.2 §4§l☆ §f§lдля тебя и друзей!",
+      "enabled": true,
+      "priority": 10,
+      "iconPath": "/catalog/v1/icons/mc-zone.png"
+    },
+    {
+      "id": "funtime",
+      "name": "FunTime",
+      "address": "play.funtime.su",
+      "displayMotd": "§4§l✞ §c§lＦｕｎ§f§lＴｉｍｅ §4§l✞ §e§lГРИФЕРСКИЙ   §6§lАНАРХИЯ   §c§lХАРДКОР\n§4§l☆ §6§l1.21 - 1.16.5 §4§l☆ §f§lГлобальное обновление, §4§lВАЙП!",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "reallyworld",
+      "name": "ReallyWorld",
+      "address": "mc.reallyworld.me",
+      "displayMotd": "§6§l• ReallyWorld • §a§lЗАХОДИ НА\n§f• §b1.16.5 §f• §b1.21.9 §f• §c§lПАСХАЛЬНЫЙ ВАЙП",
+      "enabled": true,
+      "priority": 30
+    },
+    {
+      "id": "holyworld",
+      "name": "HolyWorld",
+      "address": "hub.holyworld.ru",
+      "displayMotd": "§f§l▶ HolyWorld §8▪ §71.16.5 - 1.21.11 §8▪\n§fПодписывайся на §f§lКлассик: §bt.me/ClassicHW",
+      "enabled": true,
+      "priority": 40
+    }
+  ]
+}
