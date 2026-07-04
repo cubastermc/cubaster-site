@@ -22,7 +22,7 @@
 <main class="section legal">
     <div class="legal-inner">
         <h1>Privacy Policy</h1>
-        <p class="legal-meta">Last updated: April 13, 2026</p>
+        <p class="legal-meta">Last updated: July 4, 2026</p>
 
         <h2>1. Operator</h2>
         <p>Cubaster is provided by Капуста ("we", "us"). For privacy questions, contact <a href="mailto:cubaster@proton.me">cubaster@proton.me</a>.</p>
@@ -31,6 +31,7 @@
         <p>The App does not use advertising SDKs, cross-app tracking, or third-party analytics SDKs that profile users for marketing.</p>
         <p>The App connects to game servers selected by the user. Those third-party servers may process the player's IP address, username, chat, and gameplay traffic under their own policies. When you open the Recommended tab, the App also sends a standard status ping to each recommended server to show live online count and latency. This happens before you choose to connect, and the recommended server receives your IP address as part of that ping.</p>
         <p>The App also fetches a recommended-server catalog from Cubaster servers and may send optional aggregated recommended-server telemetry. This telemetry does not include account identifiers, advertising identifiers, Android ID, device ID, chat content, gameplay content, contact lists, or device files.</p>
+        <p>If crash diagnostics are enabled, the App may send minimal crash reports and technical diagnostics to Cubaster servers so we can diagnose crashes, ANRs, native failures, compatibility problems, and performance regressions. These reports are designed to be compact and privacy-minimized.</p>
         <p>If you open the report form for a recommended server, we may process the server ID, report reason, optional details, and submission time. Please do not include unnecessary personal data in the free-text field.</p>
         <p>If the App is distributed through Google Play, Google may process technical data required to deliver the app and asset packs under Google's own policies.</p>
 
@@ -38,6 +39,7 @@
         <p>We do not use Firebase Analytics, AdMob, AppsFlyer, Adjust, Mixpanel, Amplitude, Sentry, Crashlytics, or similar advertising or marketing SDKs to profile users.</p>
         <p>We do not sell user data and do not share user data with data brokers.</p>
         <p>We do not provide our own developer-run account system inside the App. We do not collect contacts, address books, photos, precise location, or payment card data through the App.</p>
+        <p>We do not collect full system logcat, screenshots, world saves, chat content, account credentials, access tokens, Advertising ID, Android ID, IMEI, MAC address, or contact lists in automatic crash reports.</p>
         <p>However, the App does perform limited network operations described below. For the current version of the App, a blanket statement such as "we do not process any data at all" would be inaccurate.</p>
 
         <h2>4. What Data We Process and Why</h2>
@@ -47,21 +49,25 @@
         <p><strong>4.3. Optional aggregated recommended-server telemetry.</strong> The App includes a <code>recommendedTelemetry</code> setting in <code>Online Options</code>. It is disabled by default. Telemetry is sent only if the user explicitly enables this setting. When enabled, the App may send aggregated recommended-server events such as <code>impression</code>, <code>join</code>, <code>add_to_favorites</code>, <code>hide</code>, and <code>report</code>.</p>
         <p>This telemetry does not include <code>user id</code>, account name, <code>Advertising ID</code>, Android ID, device ID, chat content, gameplay content, contact lists, or device files. The current payload contains technical batch fields such as <code>batchId</code>, <code>clientVersion</code>, and <code>sentAtEpochMs</code>, plus aggregated counters by <code>action</code> and <code>serverId</code>.</p>
         <p><strong>4.4. Reports about recommended servers.</strong> If you open the report form, we may process <code>server_id</code>, the report reason, optional details, and submission time. Do not include unnecessary personal data in the free-text field. The App backend does not store IP addresses in the report record.</p>
-        <p><strong>4.5. Google Play.</strong> If the App is distributed through Google Play, Google may process technical data needed for publishing, app download, asset pack delivery, and store infrastructure. That processing is governed by Google's own policies, not this page.</p>
+        <p><strong>4.5. Optional crash reports and diagnostics.</strong> If crash diagnostics are enabled in the App, the App may send encrypted crash reports and technical diagnostics to Cubaster crash collector servers. Reports may include crash logs, stack traces, crash fingerprints, Java/native/ANR exit information available to the App, a small app-private diagnostics ring buffer, app version, build metadata, Android SDK version, device model, ABI, memory bucket, graphics backend, GPU/vendor/renderer information when available, report IDs, and a resettable or hashed diagnostic installation identifier. We use these reports only to group crashes, investigate technical failures, improve compatibility and performance, and respond to support requests.</p>
+        <p>Automatic crash reports do not include full system logcat, screenshots, world saves, chat content, account credentials, access tokens, Advertising ID, Android ID, IMEI, MAC address, contact lists, photos, videos, or arbitrary device files. Crash report upload can be turned off in the App's diagnostics settings.</p>
+        <p><strong>4.6. Google Play.</strong> If the App is distributed through Google Play, Google may process technical data needed for publishing, app download, asset pack delivery, and store infrastructure. That processing is governed by Google's own policies, not this page.</p>
 
         <h2>5. Legal Bases</h2>
         <p>We process data to the extent necessary to operate the App's network features, display the recommended-server catalog, prevent abuse, handle reports, and respond to support requests.</p>
-        <p>For optional <code>recommendedTelemetry</code>, the basis is the user's explicit choice to enable that setting. For the other operations described above, the basis is operation of the service and our legitimate interests in support, security, abuse prevention, and moderation.</p>
+        <p>For optional <code>recommendedTelemetry</code> and optional crash diagnostics, the basis is the user's choice to enable those settings. For the other operations described above, the basis is operation of the service and our legitimate interests in support, security, abuse prevention, and moderation.</p>
 
         <h2>6. Retention</h2>
         <p><strong>Recommended telemetry batches:</strong> up to 30 days.</p>
+        <p><strong>Raw crash reports and diagnostics:</strong> up to 90 days.</p>
+        <p><strong>Crash triage metadata and aggregates:</strong> up to 365 days, unless a longer period is reasonably needed to investigate a severe technical issue, security issue, abuse, or legal request.</p>
         <p><strong>Reports about recommended servers:</strong> up to 365 days.</p>
         <p><strong>Email and support requests:</strong> for as long as reasonably necessary to respond, follow up, and comply with legal obligations.</p>
         <p>When retention is no longer necessary for the stated purposes, the data is deleted or no longer kept in the active application data path.</p>
 
         <h2>7. Your Rights</h2>
-        <p>You may request access, correction, deletion, or restriction of data that we actually control. You may also object to processing based on legitimate interests and change the <code>recommendedTelemetry</code> setting in the App.</p>
-        <p>To make a request, email <a href="mailto:cubaster@proton.me">cubaster@proton.me</a> and describe the data and action involved. We may request minimal information needed to verify the request and prevent abuse.</p>
+        <p>You may request access, correction, deletion, or restriction of data that we actually control. You may also object to processing based on legitimate interests and change the <code>recommendedTelemetry</code> and crash diagnostics settings in the App.</p>
+        <p>To make a request, email <a href="mailto:cubaster@proton.me">cubaster@proton.me</a> and describe the data and action involved. For crash diagnostics, include the diagnostic ID or report ID shown by the App if available. We may request minimal information needed to verify the request and prevent abuse.</p>
         <p>If GDPR, UK GDPR, or similar rules apply to you, you may also contact the relevant supervisory authority.</p>
 
         <h2>8. Children</h2>
@@ -70,6 +76,7 @@
 
         <h2>9. Security</h2>
         <p>We try to minimize the amount of data processed. For the catalog, optional telemetry, and report endpoints, nginx access logs for these endpoints are disabled, and IP headers are not forwarded into the backend application. Recommended telemetry does not use account identifiers or advertising identifiers.</p>
+        <p>Crash reports are sent over HTTPS and are also encrypted at the application level before upload. The public crash collector is designed to store encrypted report packages and minimal metadata; decryption and triage are separated from the public upload endpoint.</p>
         <p>No technical measure can provide an absolute security guarantee. If you have a question about a specific privacy or security risk, email us at the address above.</p>
 
         <h2>10. Changes to This Policy</h2>
