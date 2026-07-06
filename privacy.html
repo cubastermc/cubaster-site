@@ -6,7 +6,7 @@
     <title>Privacy Policy - Cubaster</title>
     <meta name="description" content="Privacy Policy for the Cubaster mobile client.">
     <meta name="theme-color" content="#7c5cff">
-    <link rel="canonical" href="https://cubaster.com/privacy.html">
+    <link rel="canonical" href="https://cubaster.com/privacy">
     <link rel="icon" type="image/png" sizes="192x192" href="img/favicon.png">
     <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
@@ -50,6 +50,7 @@
         <p>This telemetry does not include <code>user id</code>, account name, <code>Advertising ID</code>, Android ID, device ID, chat content, gameplay content, contact lists, or device files. The current payload contains technical batch fields such as <code>batchId</code>, <code>clientVersion</code>, and <code>sentAtEpochMs</code>, plus aggregated counters by <code>action</code> and <code>serverId</code>.</p>
         <p><strong>4.4. Reports about recommended servers.</strong> If you open the report form, we may process <code>server_id</code>, the report reason, optional details, and submission time. Do not include unnecessary personal data in the free-text field. The App backend does not store IP addresses in the report record.</p>
         <p><strong>4.5. Optional crash reports and diagnostics.</strong> If crash diagnostics upload is enabled in the App, the App may send encrypted crash reports and technical diagnostics to Cubaster crash collector servers. Reports may include crash logs, stack traces, normalized crash fingerprints, app-private Mojang crash text files, Java uncaught exception information, Android <code>ApplicationExitInfo</code> for this app, ANR text traces, native tombstone bytes when Android exposes them for this app, short app-private diagnostic ring logs, app version, runtime version, build metadata, Android SDK version, device manufacturer/model, ABI, memory bucket, graphics backend, GPU/vendor/renderer information when available, native runtime library identity, report IDs, and a resettable pseudonymous Diagnostic ID derived from an app installation identifier. We use these reports only to group crashes, investigate technical failures, improve compatibility and performance, prevent regressions, and respond to support requests.</p>
+        <p>The App may temporarily create local crash diagnostics in app-private storage even when upload is disabled. These local files are not transmitted unless the user enables crash diagnostics upload. They can be deleted in the App's diagnostics settings.</p>
         <p>Automatic crash reports do not include full system logcat, screenshots, world saves, chat content, account credentials, access tokens, Advertising ID, Android ID, IMEI, MAC address, contact lists, photos, videos, or arbitrary device files. Crash diagnostics upload can be enabled or disabled in the App's diagnostics settings, and the App remains usable without upload.</p>
         <p><strong>4.6. Google Play.</strong> If the App is distributed through Google Play, Google may process technical data needed for publishing, app download, asset pack delivery, and store infrastructure. That processing is governed by Google's own policies, not this page.</p>
 
@@ -59,6 +60,7 @@
 
         <h2>6. Retention</h2>
         <p><strong>Recommended telemetry batches:</strong> up to 30 days.</p>
+        <p><strong>Local on-device crash diagnostics:</strong> kept only in app-private storage until the user deletes them, app storage is cleared, or app cleanup removes old pending reports.</p>
         <p><strong>Raw encrypted crash reports and diagnostics:</strong> up to 90 days.</p>
         <p><strong>Decoded crash attachments:</strong> up to 30 days.</p>
         <p><strong>Crash triage metadata:</strong> up to 180 days. This metadata may include Diagnostic ID, report ID, app version, device model, Android SDK version, and build identifiers needed for private triage and symbolication.</p>
