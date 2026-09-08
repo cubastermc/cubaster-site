@@ -1107,10 +1107,11 @@ a:hover {
     margin: 0 auto;
     color: var(--text-secondary);
     line-height: 1.7;
+    overflow-wrap: anywhere;
 }
 
 .legal-inner h1 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
     font-weight: 700;
     color: var(--text-primary);
     letter-spacing: -0.02em;
