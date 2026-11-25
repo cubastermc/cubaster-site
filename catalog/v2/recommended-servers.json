@@ -1,6 +1,9 @@
 {
   "version": 2,
   "servers": [
+    "play.funtime.su",
+    "mc.reallyworld.me",
+    "hub.holyworld.ru",
     "play.mc.zone"
   ]
 }
